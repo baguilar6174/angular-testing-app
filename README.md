@@ -1,27 +1,57 @@
-# TestingApp
+# Simple Angular Testing App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.3.
+Esta aplicación contiene una pequeña interfaz que muestra un login y una verificación mediante una operación matemática. El objetivo de esta aplicación es aplicar test unitarios en las operaciones realizadas y lograr el más alto porcentage de coverage en el testing.
 
-## Development server
+## Instalación y ejecución
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Esta aplicación ha sido creada con [Angular](https://github.com/angular/angular-cli) versión 13.1.3.
 
-## Code scaffolding
+Paso 1:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Descargar o clonar este repositorio
 
-## Build
+Paso 2:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+En la raíz del proyecto ejecute el siguiente comando en la consola para obtener las dependencias necesarias:
 
-## Running unit tests
+```
+npm i
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Paso 3
 
-## Running end-to-end tests
+Antes de ejecutar la aplicación de angular es necesario ejecutar la aplicación de fake server creada con json server con el siguiente comando en la raíz del proyecto:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```
+npm run api
+```
 
-## Further help
+Paso 4
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Cuando el fake server este se este ejecutando correctamente, ejecutar la aplicación de Angular:
+
+```
+ng s
+```
+
+Paso 5
+
+Para ejecutar los test, usa el siguiente comando
+
+```
+ng test
+```
+
+Una vez ejecutado el comando anterior, podrás ver el `coverage report`, lo puedes encontrar en la siguiente ruta:
+
+`testing-app/coverage/testing-app/index.html`
+
+## Librerías & Paquetes usados
+
+- `json-server: ^0.17.0`: Permite crear un servidor falso a partir de un fichero `.json` que simula una BD.
+
+## Author
+
+- Website - [bryanaguilar](https://bryan-aguilar.com/)
+- Medium - [bryanaguilar6174](https://bryanaguilar6174.medium.com/)
+- LinkeIn - [bryanaguilar6174](https://www.linkedin.com/in/bryanaguilar6174)
