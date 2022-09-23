@@ -52,6 +52,7 @@ Una vez ejecutado el comando anterior, podrás ver el `coverage report`, lo pued
 
 ## Author
 
-- Website - [bryanaguilar](https://bryan-aguilar.com/)
-- Medium - [bryanaguilar6174](https://bryanaguilar6174.medium.com/)
-- LinkeIn - [bryanaguilar6174](https://www.linkedin.com/in/bryanaguilar6174)
+- Website - [www.bryan-aguilar.com](https://www.bryan-aguilar.com/)
+- Medium - [baguilar6174](https://baguilar6174.medium.com/)
+- LinkeIn - [baguilar6174](https://www.linkedin.com/in/baguilar6174)
+- Email - [bryan.aguilar6174@gmail.com](mailto:bryan.aguilar6174@gmail.com)
